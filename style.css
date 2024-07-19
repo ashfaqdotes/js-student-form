@@ -1,4 +1,4 @@
-input[type=text] {
+input{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -8,6 +8,18 @@ input[type=text] {
 .main{
   padding-top: 20px;
   margin: auto;
-  width: 70%;
+  width: 60%;
   height: auto;
 }
+
+/* Hide the arrows in Chrome, Safari, Edge, and Opera
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* Hide the arrows in Firefox
+input[type="number"] {
+  -moz-appearance: textfield;
+} */
